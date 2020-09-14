@@ -50,12 +50,14 @@ function setPictureURL(imageUrl) {
     image.src = null;
     image.src= imageUrl;
     image.style.marginBottom = "30px";
+    image.style.display = "block";
 }
 
 function setPictureTitle(imageTitle) {
     title.innerText = imageTitle;
     title.style.marginBottom = "30px";
     title.style.marginTop = "30px";
+    title.style.display = "block";
 }
 
 function fetchImageByDate () {
